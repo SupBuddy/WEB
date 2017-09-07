@@ -1,0 +1,40 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+}
+a{
+	text-decoration: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4{
+	font-weight:normal;
+	font-size:12px;
+}
+ul li{
+	list-style: none;
+}
+.clearfix:after{
+  content: " ";
+  display: block;
+  height: 0;
+  line-height: 0;
+  clear: both;
+  zoom:1;
+}
+.wrap{
+	width: 1244px;
+	margin: 0 auto;
+}
+.top{
+	height: 114px;
+}
+.content{
+	
+}
+.footer{
+	height: 160px;
+}

@@ -1,0 +1,100 @@
+.ui-menu{
+	display: none;
+	position: absolute;
+	top: 117px;
+	left: 32px;
+	background-color: #fff;
+	width: 1180px;
+	border-bottom: 2px solid #dbdbdb;
+}
+.ui-menu-wrap:hover .ui-menu{
+	display: block;
+}
+.ui-menu-wrap:hover .category-name{
+	text-decoration: underline;
+}
+.ui-menu-wrap{
+	float: left;
+	padding-bottom: 36px;
+}
+.ui-menu-wrap a{
+	padding-right: 50px;
+	font-size: 14px;
+	color: #303030;
+	font-family: Lato;
+	line-height: 44px;
+}
+.ui-menu-categories{
+	width: 295px;
+	height: 340px;
+	float: left;
+}
+.ui-menu-category{
+	padding: 10px 0;
+
+}
+.ui-menu-category h3{
+	font: bold 14px Lato;
+	color: #303030;
+	height: 20px;
+}
+.ui-menu-category li a{
+	list-style: none;
+	font: 14px Lato;
+	color: #303030;
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+
+}
+.ui-menu-category ul{
+	list-style: none;
+}
+.ui-menu-category li:hover a{
+	text-decoration: underline;
+}
+
+/* .banner 轮播图 */
+.ui-content{
+	width: 3528px;
+	height: 118px;
+	position: relative;
+	overflow: hidden;
+	margin-left: 0px;
+}
+.ui-item{
+	width: 196px;
+	height: 118px;
+	float: left;
+}
+.ui-item img{
+	width: 100%;
+	height: 100%;
+}
+.trigger{
+    width: 17px;
+    height: 43px;
+    background-image: url(../img/v3.png);
+    position: absolute;
+    top: 37px;
+    z-index: 3;
+}
+.left{
+	background-position: -277px -440px;
+    left: 0;
+}
+.left:hover{
+	background-position: -217px -440px;
+}
+.right{
+	background-position: -307px -440px;
+	left: 1159px;
+}
+.right:hover{
+	background-position: -247px -440px;
+}
+.banner ul li{
+	width: 1176px;
+	float: left;
+	
+}
