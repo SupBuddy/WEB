@@ -98,3 +98,47 @@
 	float: left;
 	
 }
+.deals{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+    height: 100%;
+	
+}
+.overlay{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font: bold 14px Lato;
+    display: none;
+    z-index: 2;
+    text-align: center;
+    line-height: 118px;
+	
+}
+.overlay .mask{
+	opacity: .3;
+    filter: alpha(opacity=40);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+}
+.overlay p{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	height: 118px;
+	position: absolute;
+    left: 0;
+    top: 0;
+}
+.ui-item:hover .overlay{
+	display: block;
+}
