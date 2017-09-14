@@ -1,4 +1,10 @@
 /* #top */
+@font-face{
+	font-family: Lato;
+	src: url(../fonts/lato/Lato-Regular.ttf) format('truetype');
+	src: url(../fonts/lato/lato-regular-webfont.woff) format('woff');
+	src: url(../fonts/lato/lato-regular-webfont.woff2) format('woff2');
+}
 .menu{
 	height: 44px;
 	padding: 36px 0 36px 32px;
@@ -409,4 +415,3 @@ hr{
 	border: 1px solid #bbb;
 	color: #bbb;
 }
-
