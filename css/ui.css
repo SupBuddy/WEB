@@ -21,7 +21,7 @@
 	padding-right: 50px;
 	font-size: 14px;
 	color: #303030;
-	font-family: Lato;
+	font-family: Lato,sans-serif,Helvetica,Arial;
 	line-height: 44px;
 }
 .ui-menu-categories{
@@ -34,13 +34,13 @@
 
 }
 .ui-menu-category h3{
-	font: bold 14px Lato;
+	font: bold 14px Lato,sans-serif,Helvetica,Arial;
 	color: #303030;
 	height: 20px;
 }
 .ui-menu-category li a{
 	list-style: none;
-	font: 14px Lato;
+	font: 14px Lato,sans-serif,Helvetica,Arial;
 	color: #303030;
 	width: auto;
 	height: 20px;
@@ -112,7 +112,7 @@
     top: 0;
     left: 0;
     color: #fff;
-    font: bold 14px Lato;
+    font: bold 14px Lato,sans-serif,Helvetica,Arial;
     display: none;
     z-index: 2;
     text-align: center;
